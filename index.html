@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca Cep</title>
+</head>
+
+<body>
+    <div class="banner-img"></div>
+    <form class="painel" id="formulario">
+        <div class="title">
+            <h2>Localização</h2>
+        </div>
+        <div class="textbox">
+            <input type="text" placeholder="Informe o CEP" id="cep" name="cep" class="bigger" />
+        </div>
+        <span id="ucep">Cep não encontrado</span>
+        <div class="textbox">
+            <input type="text" placeholder="Rua" id="rua" class="bigger" />
+        </div>
+        <div class="textbox">
+            <input type="text" placeholder="Bairro" id="bairro" class="bigger" />
+        </div>
+        <div class="textbox inline" >
+            <input type="text" placeholder="Cidade" id="cidade" class="bigger less" />
+            <input type="text" placeholder="UF" id="UF" class="secundario" />
+        </div>
+        <div class="textbox inline">
+            <input type="text" placeholder="IBGE" id="ibge" class="bigger less" />
+            <input type="text" placeholder="DDD" id="ddd" class="secundario" />
+        </div>
+    </form>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.mask.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
