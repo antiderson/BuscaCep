@@ -19,7 +19,8 @@ html {
 span {
     color: rgba(0, 0, 0, 0.0);
 }
-
+ h2{
+     font-family: 'Arial';
 .painel {
     --words: white;
     border-radius: 15px;
@@ -38,7 +39,7 @@ span {
 .painel .title {
     color: var(--words);
     margin-top: 60px;
-    font-family: 'Qahiri' sans-serif;
+/*     font-family: 'Qahiri' sans-serif; */
 }
 
 .inline {
